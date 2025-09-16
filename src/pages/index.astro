@@ -10,6 +10,7 @@ import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
 import Skills from '../components/Skills.astro';
+import Timeline from '../components/Timeline.astro';
 // Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
 import BaseLayout from '../layouts/BaseLayout.astro';
 
@@ -17,6 +18,37 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const projects = (await getCollection('work'))
 	.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
 	.slice(0, 4);
+
+const workExperience = [
+	{
+		title: "Senior Software Developer",
+		company: "Creative Tech Studio",
+		period: "2022 - Present",
+		description: "Leading development of collaborative music creation platforms and interactive sound installations. Architecting scalable audio processing systems and real-time collaboration tools.",
+		technologies: ["JavaScript", "Web Audio API", "Node.js", "React", "WebRTC"]
+	},
+	{
+		title: "Music Technology Developer",
+		company: "Sound Innovation Labs",
+		period: "2020 - 2022",
+		description: "Developed cutting-edge audio software and digital instruments. Created immersive sound experiences for live performances and installations.",
+		technologies: ["Max/MSP", "Pure Data", "C++", "Python", "Ableton Live"]
+	},
+	{
+		title: "Freelance Sound Artist & Composer",
+		company: "Independent",
+		period: "2018 - 2020",
+		description: "Composed original music for films, games, and multimedia installations. Collaborated with artists and developers on interactive audio experiences.",
+		technologies: ["Logic Pro", "Reaper", "SuperCollider", "TouchDesigner"]
+	},
+	{
+		title: "Audio Engineer",
+		company: "Digital Media Collective",
+		period: "2016 - 2018",
+		description: "Provided technical audio support for live events and studio recordings. Developed custom audio processing tools and workflows.",
+		technologies: ["Pro Tools", "Cubase", "MATLAB", "Arduino", "Max/MSP"]
+	}
+];
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/
@@ -69,7 +101,7 @@ const projects = (await getCollection('work'))
 				</div>
 
 				<div class="cta">
-					<CallToAction href="/work/">
+					<CallToAction href="/projects/">
 						View All
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
@@ -78,23 +110,13 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
-					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
+					<h3>Experience</h3>
+					<p>Sound, technology, and collaborative creation</p>
 				</header>
-
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
+				
+				<!-- Added Timeline component with work experience data -->
+				<div class="experience-content">
+					<Timeline items={workExperience} />
 				</div>
 			</section>
 		</main>
@@ -191,6 +213,14 @@ const projects = (await getCollection('work'))
 		font-size: var(--text-2xl);
 	}
 
+	/* Added styling for experience content */
+	.experience-content {
+		grid-column: 1 / -1;
+		justify-self: center;
+		width: 100%;
+		max-width: 900px;
+	}
+
 	@media (min-width: 50em) {
 		.section {
 			grid-template-columns: repeat(4, 1fr);
@@ -222,6 +252,11 @@ const projects = (await getCollection('work'))
 
 		.cta {
 			grid-area: cta;
+		}
+
+		/* Updated experience content grid positioning */
+		.experience-content {
+			grid-area: gallery;
 		}
 	}
 

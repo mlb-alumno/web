@@ -1,0 +1,157 @@
+---
+// Timeline component for work experience
+export const TimelineItem = {
+  title: "",
+  company: "",
+  period: "",
+  description: "",
+  technologies: []
+};
+
+const { items } = Astro.props;
+---
+
+<div class="timeline">
+  {items.map((item, index) => (
+    <div class="timeline-item">
+      <div class="timeline-marker">
+        <div class="timeline-dot"></div>
+        {index < items.length - 1 && <div class="timeline-line"></div>}
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-header">
+          <h4 class="timeline-title">{item.title}</h4>
+          <span class="timeline-company">{item.company}</span>
+          <span class="timeline-period">{item.period}</span>
+        </div>
+        <p class="timeline-description">{item.description}</p>
+        {item.technologies && (
+          <div class="timeline-technologies">
+            {item.technologies.map((tech) => (
+              <span class="tech-tag">{tech}</span>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  ))}
+</div>
+
+<style>
+  .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .timeline-item {
+    display: flex;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .timeline-marker {
+    position: relative;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--gradient-accent);
+    border: 3px solid var(--gray-999);
+    box-shadow: var(--shadow-sm);
+    z-index: 2;
+    flex-shrink: 0;
+  }
+
+  .timeline-line {
+    width: 2px;
+    height: 100%;
+    background: var(--gradient-stroke);
+    margin-top: 0.5rem;
+    min-height: 3rem;
+  }
+
+  .timeline-content {
+    flex: 1;
+    background: var(--gradient-subtle);
+    border: 1px solid var(--gray-800);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .timeline-header {
+    margin-bottom: 1rem;
+  }
+
+  .timeline-title {
+    font-size: var(--text-lg);
+    color: var(--gray-100);
+    margin-bottom: 0.25rem;
+    font-family: var(--font-brand);
+  }
+
+  .timeline-company {
+    display: block;
+    font-size: var(--text-md);
+    color: var(--accent-regular);
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  .timeline-period {
+    display: block;
+    font-size: var(--text-sm);
+    color: var(--gray-400);
+    font-style: italic;
+  }
+
+  .timeline-description {
+    color: var(--gray-300);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .timeline-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tech-tag {
+    background: var(--accent-overlay);
+    color: var(--accent-text-over);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: var(--text-sm);
+    font-weight: 500;
+  }
+
+  @media (max-width: 50em) {
+    .timeline-marker {
+      margin-right: 1rem;
+    }
+
+    .timeline-content {
+      padding: 1rem;
+    }
+
+    .timeline-title {
+      font-size: var(--text-base);
+    }
+
+    .timeline-company {
+      font-size: var(--text-sm);
+    }
+  }
+</style>
