@@ -1,6 +1,6 @@
 # Ma Babiloni Web page
 
-My webpage created with Astro by using the ``Astro starter kit: portfolio template``
+My webpage created with Astro by using the ``Astro starter kit: Portfolio`` template.
 
 
 # Astro Starter Kit: Portfolio
