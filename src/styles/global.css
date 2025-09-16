@@ -1,25 +1,27 @@
+@import "tailwindcss";
+
 /* Global variables */
 :root {
 	/* Colors */
 	--gray-0: #090b11;
 	--gray-50: #141925;
 	--gray-100: #283044;
-	--gray-200: #3d4663;
-	--gray-300: #505d84;
-	--gray-400: #6474a2;
-	--gray-500: #8490b5;
-	--gray-600: #a3acc8;
-	--gray-700: #c3cadb;
+	--gray-200: #3d6352;
+	--gray-300: #50845e;
+	--gray-400: #64a282;
+	--gray-500: #84b5a6;
+	--gray-600: #a3c8bb;
+	--gray-700: #c3dbd0;
 	--gray-800: #e3e6ee;
 	--gray-900: #f3f4f7;
 	--gray-999-basis: 0, 0%, 100%;
 	--gray-999_40: hsla(var(--gray-999-basis), 0.4);
 	--gray-999: #ffffff;
 
-	--accent-light: #c561f6;
-	--accent-regular: #7611a6;
-	--accent-dark: #1c0056;
-	--accent-overlay: hsla(280, 89%, 67%, 0.33);
+	--accent-light: #61f6a2;
+	--accent-regular: #41e982df;
+	--accent-dark: #005635;
+	--accent-overlay: hsla(141, 89%, 67%, 0.33);
 	--accent-subtle-overlay: var(--accent-overlay);
 	--accent-text-over: var(--gray-999);
 
@@ -38,7 +40,7 @@
 	);
 	--gradient-accent-orange: linear-gradient(
 		150deg,
-		#ca7879,
+		#95ca78,
 		var(--accent-regular),
 		var(--accent-dark)
 	);
@@ -70,8 +72,8 @@
 	--font-system:
 		system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
 		"Open Sans", "Helvetica Neue", sans-serif;
-	--font-body: "Public Sans", var(--font-system);
-	--font-brand: Rubik, var(--font-system);
+	--font-body: "Roboto", var(--font-system);
+	--font-brand: Prata, var(--font-system);
 
 	/* Transitions */
 	--theme-transition: 0.2s ease-in-out;
@@ -82,30 +84,30 @@
 	--gray-50: #f3f4f7;
 	--gray-100: #e3e6ee;
 	--gray-200: #c3cadb;
-	--gray-300: #a3acc8;
-	--gray-400: #8490b5;
-	--gray-500: #6474a2;
-	--gray-600: #505d84;
-	--gray-700: #3d4663;
+	--gray-300: #a3c8aa;
+	--gray-400: #84b58b;
+	--gray-500: #64a290;
+	--gray-600: #569c7e;
+	--gray-700: #3d634f;
 	--gray-800: #283044;
 	--gray-900: #141925;
 	--gray-999-basis: 225, 31%, 5%;
 	--gray-999: #090b11;
 
-	--accent-light: #1c0056;
-	--accent-regular: #7611a6;
-	--accent-dark: #c561f6;
-	--accent-overlay: hsla(280, 89%, 67%, 0.33);
-	--accent-subtle-overlay: hsla(281, 81%, 36%, 0.33);
+	--accent-light: #2d7341;
+	--accent-regular: #008545;
+	--accent-dark: #61f69a;
+	--accent-overlay: hsla(151, 89%, 67%, 0.33);
+	--accent-subtle-overlay: hsla(161, 81%, 36%, 0.33);
 	--accent-text-over: var(--gray-0);
 
 	--link-color: var(--accent-dark);
 
-	--gradient-stop-1: #4c11c6;
+	--gradient-stop-1: #11c641;
 	--gradient-subtle: linear-gradient(150deg, var(--gray-900) 19%, var(--gray-999) 81%);
 	--gradient-accent-orange: linear-gradient(
 		150deg,
-		#ca7879,
+		#788aca,
 		var(--accent-regular),
 		var(--accent-light)
 	);
