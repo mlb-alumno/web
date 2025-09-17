@@ -8,6 +8,12 @@ description: |
 tags:
   - Arte sonoro
   - Performance
+  - Pro tools
 ---
 
-Esta obra invita a varias personas del público a realizar una tirada de tarot pero en vez de ver cartas escuchará una serie de ambientes sonoros (basados en las cartas tradicionales). Los ambientes son controlados a tiempo real por el/la performer.
+Esta obra invita a varias personas del público a realizar una tirada de tarot. Sin embargo, en vez de ver cartas, la persona invitada escuchará una serie de ambientes sonoros (basados en las cartas tradicionales). Los ambientes son controlados a tiempo real por el/la performer que invita a escuchar ciertos elementos sonoros y relacionarlos simbólicamente con la carta de tarot y la pregunta que ha realizado.
+
+---
+img: /assets/tarot.webp
+
+---

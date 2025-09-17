@@ -2,6 +2,8 @@
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Timeline from '../components/Timeline.astro';
+import { workExperience } from '../constants';
 ---
 
 <BaseLayout title="About | Ma Babiloni" description="About Ma Babiloni">
@@ -23,35 +25,45 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						I am a sound artist and music composer based on Barcelona (Spain) who uses listening and collective sound creation to foster social and ecological awareness. In my artistic practice, I typically explore how different modes of listening to an environment can bring about quiet yet profound transformations in people and in their relationships with each other and with nature.
+
+I studied sound art and collaborative practices in depth during my <strong>Bachelor's degree in Music Composition</strong>, where I interviewed and become friends with Llorenç Barber, one of the most important figures of collective sound art. 
+
+
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						My Bachelor's thesis "<strong>Systems of Sound Creation: A Proposal within Collective Sound Art</strong>" outlined a method for analyzing, understanding, and creating collective sound art works. I tested this system by organizing a collaborative concert in which the audience could interact with the sound.
+
+When collaborating, I place special emphasis on horizontal structures, listening equally to everyone’s contributions. At times, I take on the role of an external moderator to ensure that no one dominates the process and that every voice is heard and considered. I also work with consensus-building and the generation of intermediate ideas to help participants find common ground. 
+
+
 					</p>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						I kept exploring this collaborative practices and their connection to technology during in the <strong>Master Of Sound and Music Computing (Pompeu Fabra Barcelona)</strong> where i <strong>developed a real time collaborative Web App for musicians</strong>
+						
+						
 					</p>
+					<p>
+					Some of my most recent projects include:
+					</p>
+					<ul>
+						<li><strong>Sendero de escuchas</strong>: A guided experience of listening in the forest, where participants propose different ways of listening, engage in various exercises, and share a collective lunch to reflect on the sensations and thoughts that arose from each activity.</li>
+						<li><strong>Third Space</strong>: A project that creates a public space for open debate, discussion, and the sharing of ideas about ecology and society. Anyone can join to express concerns and collectively explore possible responses and actions.</li>
+					</ul>
 				</div>
 			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
+			
+			
+			<section class="section with-background bg-variant">
+				
+				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>Experience</h3>
+					<p>Sound, technology, and collaborative creation</p>
+				</header>
+				
+				<!-- Added Timeline component with work experience data -->
+				<div class="experience-content">
+					<Timeline items={workExperience}/>
 				</div>
 			</section>
 		</main>
