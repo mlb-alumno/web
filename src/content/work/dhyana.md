@@ -1,6 +1,6 @@
 ---
 title: "Dhyana - Orchestra"
-publishDate: 2025-9-16 00:00:00
+publishDate: 2025-7-16 00:00:00
 img: /assets/dhyana/dhyana.jpg
 img_alt: Orchestra Piece
 description: |

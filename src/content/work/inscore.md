@@ -1,6 +1,6 @@
 ---
 title: "InScoreAI - Collaborative Web App"
-publishDate: 2025-9-16 00:00:00
+publishDate: 2025-1-16 00:00:00
 img: /assets/inscore/inscore.png
 img_alt: Collaborative Web App
 description: |

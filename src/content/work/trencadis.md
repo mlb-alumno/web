@@ -1,6 +1,6 @@
 ---
 title: "Trencadís d'ocells - Acousmatic music"
-publishDate: 2025-9-16 00:00:00
+publishDate: 2025-4-16 00:00:00
 img: /assets/trencadis/trencadis.webp
 img_alt: Gaudí
 description: |

@@ -26,3 +26,5 @@ Esta obra nace de mi tesis de grado de composición musical **"Sistemas de creac
 <iframe src="https://drive.google.com/file/d/1uck4WzBcT6ZFg2Xuo3SGebU6faLzW6CF/preview" width="100%" height="640" allow="autoplay" allowfullscreen></iframe>
 
 
+![](/assets/soundplayground/sound2.png)
+

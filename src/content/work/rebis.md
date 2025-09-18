@@ -1,6 +1,6 @@
 ---
 title: "Rebis - 9 p. Ensemble"
-publishDate: 2025-9-16 00:00:00
+publishDate: 2023-9-16 00:00:00
 img: /assets/rebis/rebis.webp
 img_alt: Ensemble
 description: |

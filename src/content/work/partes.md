@@ -1,6 +1,6 @@
 ---
 title: "Las partes de ti, mis seres vacíos - Ensemble y videoarte"
-publishDate: 2025-9-16 00:00:00
+publishDate: 2023-9-16 00:00:00
 img: /assets/partes/partes.webp
 img_alt: Ensemble sincronizado a videoarte
 description: |

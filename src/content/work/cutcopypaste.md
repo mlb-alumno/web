@@ -1,6 +1,6 @@
 ---
 title: "Cut Copy Paste - Ensemble"
-publishDate: 2025-9-16 00:00:00
+publishDate: 2025-6-16 00:00:00
 img: /assets/cutcopypaste/paste.png
 img_alt: Paste
 description: |

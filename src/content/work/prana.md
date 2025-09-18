@@ -1,6 +1,6 @@
 ---
 title: "Prana Atman - Piano and breath"
-publishDate: 2025-9-16 00:00:00
+publishDate: 2025-6-16 00:00:00
 img: /assets/prana/prana.png
 img_alt: Piano piece
 description: |

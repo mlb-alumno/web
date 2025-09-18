@@ -1,6 +1,6 @@
 ---
 title: "Tarot sonoro - Performance"
-publishDate: 2025-9-16 00:00:00
+publishDate: 2025-7-16 00:00:00
 img: /assets/tarot/tarot.webp
 img_alt: An artist performing sound art
 description: |
