@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manubabiloni.com/sitemap-index.xml

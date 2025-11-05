@@ -1,4 +1,4 @@
-# Ma Babiloni Web page
+# Manu Babiloni Web page
 
 My webpage created with Astro by using the ``Astro starter kit: Portfolio`` template.
 

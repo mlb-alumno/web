@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.6.0",
     "@tailwindcss/postcss": "^4.1.13",
     "@yatoday/astro-ui": "^0.10.2",
     "astro": "^5.13.7",
