@@ -23,19 +23,23 @@
 	--gray-999_40: hsla(var(--gray-999-basis), 0.4);
 	--gray-999: #ffffff;
 
-	--accent-light: #61f6a2;
-	--accent-regular: #41e982df;
+	--accent-light: #d0fcce;
+	--accent-regular: rgb(193, 221, 191);
 	--accent-dark: #005635;
 	--accent-overlay: hsla(141, 89%, 67%, 0.33);
 	--accent-subtle-overlay: var(--accent-overlay);
 	--accent-text-over: var(--gray-000);
 
-	--link-color: var(--accent-regular);
+	--link-color: rgb(0, 149, 190);
 
 	/* Gradients */
+	--hero-color-stop-1: #37881a;
+	--hero-color-stop-2: #247b4e;
+	
+	
 	--gradient-stop-1: var(--accent-light);
 	--gradient-stop-2: var(--accent-regular);
-	--gradient-stop-3: var(--accent-dark);
+	--gradient-stop-3: var(--accent-light);
 	--gradient-subtle: linear-gradient(150deg, var(--gray-900) 19%, var(--gray-999) 150%);
 	--gradient-accent: linear-gradient(
 		150deg,
@@ -47,7 +51,7 @@
 		150deg,
 		#95ca78,
 		var(--accent-regular),
-		var(--accent-dark)
+		var(--accent-regular)
 	);
 	--gradient-stroke: linear-gradient(180deg, var(--gray-900), var(--gray-700));
 
@@ -90,31 +94,39 @@
 	--gray-50: #f3f4f7;
 	--gray-100: #e3e6ee;
 	--gray-200: #c3cadb;
-	--gray-300: #a3c8aa;
-	--gray-400: #e0e0e0;
-	--gray-500: #64a290;
-	--gray-600: #569c7e;
+	--gray-300: #dadada;
+	--gray-400: rgb(193, 192, 192);
+	--gray-500: #4b4b7a;
+	--gray-600: #2b4d3e;
 	--gray-700: #3d634f;
 	--gray-800: #283044;
 	--gray-900: #141925;
 	--gray-999-basis: 225, 31%, 5%;
 	--gray-999: #090b11;
 
-	--accent-light: #2d7341;
-	--accent-regular: #008c48;
-	--accent-dark: #61f69a;
-	--accent-overlay: hsla(151, 89%, 67%, 0.33);
+
+	
+
+	--accent-light: #1d522c;
+	--accent-regular: #518e6d;
+	--accent-dark: #a2caac;
+	--accent-overlay: hsla(151, 27%, 38%, 0.622);
 	--accent-subtle-overlay: hsla(161, 81%, 36%, 0.33);
-	--accent-text-over: var(--gray-0);
+	--accent-text-over: #c4d5c8;
 
 	--link-color: var(--accent-dark);
 
-	--gradient-stop-1: #11c641;
+	--hero-color-stop-1: rgb(187, 255, 170);
+	--hero-color-stop-2: #d1ffea;
+
+	--gradient-stop-1: #71b576;
+	--gradient-stop-2:  #95f6a0;
+	--gradient-stop-3:  #aad685;
+	
 	--gradient-subtle: linear-gradient(150deg, var(--gray-900) 19%, var(--gray-999) 81%);
 	--gradient-accent-orange: linear-gradient(
 		150deg,
-		#788aca,
-		var(--accent-regular),
+		var(--accent-dark),
 		var(--accent-light)
 	);
 	--gradient-stroke: linear-gradient(180deg, var(--gray-600), var(--gray-800));
@@ -140,7 +152,6 @@ body {
 	background-color: var(--gray-999);
 	color: var(--gray-200);
 	font-family: var(--font-body);
-	-webkit-font-smoothing: antialiased;
 	line-height: 1.5;
 }
 
@@ -268,4 +279,5 @@ h5 {
 		gap: 12rem;
 	}
 }
+
 

@@ -31,15 +31,15 @@ const { Content } = await render(entry);
 		<div class="stack gap-15">
 			<header>
 				<div class="wrapper stack gap-2">
-					<a class="back-link" href="/projects/"><Icon icon="arrow-left" /> Projects</a>
-					<Hero title={entry.data.title} align="start">
+					<a class="back-link" href="/projects/"><Icon icon="arrow-left"/> / Projects /</a>
+					<h1> {entry.data.title} </h1>
 						<div class="details">
 							<div class="tags">
 								{entry.data.tags.map((t) => <Pill>{t}</Pill>)}
 							</div>
 							<p class="description">{entry.data.description}</p>
 						</div>
-					</Hero>
+					
 				</div>
 			</header>
 			<main class="wrapper">
@@ -134,8 +134,9 @@ const { Content } = await render(entry);
 
 	@media (min-width: 50em) {
 		.back-link {
-			display: block;
+			display: flex;
 			align-self: flex-start;
+			align-items: center;
 		}
 
 		.details {
