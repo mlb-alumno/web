@@ -10,7 +10,28 @@ const { align = 'center', tagline, title } = Astro.props;
 
 <div class:list={['hero stack gap-4', align]}>
 	<div class="stack gap-2">
-		<h1 class="title">{title}</h1>
+		<svg viewBox="0 0 100 20">
+			<defs>
+			  <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+				<stop offset="5%" stop-color="#71adc7"/>
+				<stop offset="95%" stop-color="#000000"/>
+			  </linearGradient>
+			  <pattern id="wave" x="0" y="-0.7" width="120" height="20" patternUnits="userSpaceOnUse">
+				<path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+				  <animateTransform
+					  attributeName="transform"
+					  begin="0s"
+					  dur="4s"
+					  type="translate"
+					  from="0,0"
+					  to="40,0"
+					  repeatCount="indefinite" />
+				</path>
+			  </pattern>
+			</defs>
+			<text text-anchor="middle" x="45.5" y="15" font-size=var(--text-sm) fill="url(#wave)"  fill-opacity="0.6">{title}</text>
+			<text text-anchor="middle" x="45.5" y="15" font-size=var(--text-sm) fill="url(#gradient)" fill-opacity="0.1">{title}</text>
+		  </svg>
 		{tagline && <p class="tagline">{tagline}</p>}
 	</div>
 	<slot />
@@ -18,7 +39,7 @@ const { align = 'center', tagline, title } = Astro.props;
 
 <style>
 	.hero {
-		font-size: var(--text-lg);
+		font-size: var(--text-sm);
 		text-align: center;
 	}
 
@@ -48,7 +69,7 @@ const { align = 'center', tagline, title } = Astro.props;
 		}
 
 		.title {
-			font-size: var(--text-5xl);
+			font-size: var(--text-xl);
 		}
 	}
 </style>
