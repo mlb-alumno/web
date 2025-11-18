@@ -23,26 +23,35 @@ Esta obra invita a varias personas del público a realizar una tirada de tarot. 
 
 La Luna
 
-<audio controls src="/assets/tarot/luna.wav"></audio>
-
 ![](/assets/tarot/luna.jpg)
+
+<audio controls src="/assets/tarot/luna.wav"></audio>
 
 
 El Mago
 
+![](/assets/tarot/mago.jpg)
+
 <audio controls src="/assets/tarot/mago.wav"></audio>
 
-![](/assets/tarot/mago.jpg)
+
 
 La Estrella
 
+![](/assets/tarot/estrella.jpg)
+
 <audio controls src="/assets/tarot/estrella.wav"></audio>
 
-![](/assets/tarot/estrella.jpg)
+
 
 El Sol 
 
+![](/assets/tarot/sol.jpg)
+
 <audio controls src="/assets/tarot/sol.wav"></audio>
+
+
+
 
 El Arcano Sin Nombre
 
