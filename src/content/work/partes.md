@@ -15,7 +15,7 @@ tags:
 
 
 
-*Obra para ensemble de 6 instrumentistas sincronizada con el cortometraje ganador de un Goya "Las partes de mí que te aman son seres vacíos" de Mercedes Gaspar en la Sala Berlanga (Madrid), 2023*
+*Obra para ensemble de 6 instrumentistas sincronizada con el cortometraje ganador de un Goya "Las partes de mí que te aman son seres vacíos" de Mercedes Gaspar en la <a href="https://salaberlanga.com/">Sala Berlanga</a> (Madrid), 2023*
 
 ESP:
 

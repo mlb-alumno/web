@@ -14,13 +14,11 @@ tags:
 
 
 
-*Estrenada en la Sala Berlanga (Madrid), 2022*
+*Estrenada en el Auditorio del CSMC (Madrid), 2022*
 
 ESP:
 
 Esta obra está basada en un poema de la obra Four Quartets del poeta T.S Eliot. En su primera estrofa genera una serie de relaciones temáticas que quise explorar musicalmente, estas son; la idea de unión, el baile, el silencio y el tiempo.
-
-Esta obra fue dirigida por el compositor Javier Guardiola.
 
 Intérpretes
 - Guillermo Pablos Murphy (Narrador)

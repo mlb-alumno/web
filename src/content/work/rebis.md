@@ -13,7 +13,7 @@ tags:
 <iframe src="https://drive.google.com/file/d/1KLAiPr6IEqlkaYtVTrMLfLdy4lmE5Pdl/preview" width="100%" height="640" allow="autoplay" allowfullscreen></iframe>
 
 
-*Estrenada en la Sala Berlanga (Madrid), 2023*
+*Estrenada en la <a href="https://salaberlanga.com/">Sala Berlanga</a> (Madrid), 2023*
 
 ESP:
 

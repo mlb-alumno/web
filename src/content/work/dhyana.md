@@ -9,7 +9,7 @@ tags:
   - Orquesta
 ---
 
-*Grabada por la Bratislava Symphony Orchestra, 2024*
+*Grabada por la <a href="https://www.bso.sk/">Bratislava Symphony Orchestra</a>, 2024*
 
 ESP:
 
