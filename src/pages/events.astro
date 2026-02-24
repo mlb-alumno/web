@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import ContactCTA from '../components/ContactCTA.astro';
+import Grid from '../components/Grid.astro';
+import Hero from '../components/Hero.astro';
+import PortfolioPreview from '../components/PortfolioPreview.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const projects = (await getCollection('work')).sort(
+	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
+);
+---
+
+<BaseLayout
+	title="Events | Manu Babiloni"
+	description="Learn about Manu Babiloni's most recent events"
+>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<h2>/ Events /</h2>
+			<p class="tagline">You can get information of the time and place of my events by joining my mailing list:</p>
+            <script async data-uid="f4435c0aa8" src="https://manu-babiloni.kit.com/f4435c0aa8/index.js"></script>            <Grid variant="offset">
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+
+<style>
+
+	.tagline {
+		text-align: start;
+		max-width: 45ch;
+
+		font-size: var(--text-lg);
+	}
+</style>
