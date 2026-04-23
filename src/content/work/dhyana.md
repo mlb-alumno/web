@@ -8,30 +8,37 @@ description: |
 tags:
   - Orquesta
 ---
-
-*Grabada por la <a href="https://www.bso.sk/">Bratislava Symphony Orchestra</a>, 2024*
-
-ESP:
-
-Dhyana es una obra de orquesta inspirada en los 4 Dhyanas budistas, un proceso hacia una mente diáfana.
+*La <a href="https://www.bso.sk/">Bratislava Symphony Orchestra</a> grabando Dhyana, 2024*
 
 ---
 
-#### **Fragmento de la grabación** 
-*(Yet to be published)*
+#### **Escucha Dhyana** 
 
-<audio controls src="/assets/dhyana/dhyana-frag.wav"></audio>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3642589/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://manubabiloni.bandcamp.com/album/dhyana">Dhyana by Manu Babiloni</a></iframe>
+
 
 ---
 
-#### **Fragmento de la partitura** 
-*(Yet to be published, if you want to play the full work send me an email)*
+Dhyana es una obra de orquesta inspirada en los cuatro Dhyanas budistas, estados meditativos hacia la mente diáfana.
+
+*Composición y edición de las partituras: Manu Babiloni*<br>
+*Carátula: Manu Babiloni*<br>
+*Grabación e interpretación: Bratislava Symphony Orchestra, 2024*<br>
+*Dirección de la orquesta: David Hernando*<br>
+*Mezcla y masterización: Ángel Zapata*<br>
+
+
+#### **Partitura** 
+Para obtener la partitura completa puedes comprar la obra en [Bandcamp](https://manubabiloni.bandcamp.com/album/dhyana). Para obtener las particellas puedes enviar un email solicitándolas. 
+
+
+[**Descargar fragmento de la partitura**](/assets/dhyana/dhyana-frag.pdf)
 
 <object data="/assets/dhyana/dhyana-frag.pdf" type="application/pdf" width="100%" height="600px">
     <p>Unable to display PDF file. <a href="/assets/dhyana/dhyana-frag">Download</a> instead.</p>
 </object>
 
-[**Download Score Fragment**](/assets/dhyana/dhyana-frag.pdf)
+
 
 ---
 
