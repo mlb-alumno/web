@@ -3,7 +3,7 @@ export const workExperience = [
 		title: "EDUCATOR",
 		period: "2025-present",
 		description: `• Workshop facilitator focused on listening and attention, 2025-present.
-		• 2 years teaching private lessons of music composition, electric guitar, harmony, musical technology, analysis, counterpoint and musical language, as well as preparing the access to master degrees in composition, 2024-present.
+		• 2 years of teaching private lessons in music composition, electric guitar, harmony, musical technology, analysis, counterpoint and musical language, as well as preparing students for master's degree access exams, 2024-present.
 		• Teacher of Ciclo Superior DAW DAM in STUCOM, Barcelona, 2026
 		`
 
