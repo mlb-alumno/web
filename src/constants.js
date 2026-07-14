@@ -3,8 +3,8 @@ export const workExperience = [
 		title: "EDUCATOR",
 		period: "2025-present",
 		description: `• Workshop facilitator focused on listening and attention, 2025-present.
-		• 2 years teaching private lessons of music composition, electric guitar, harmony, musical technology, analysis, counterpoint and musical language, 2025-present.
-		• Teacher of Ciclo Superior, DAW DAM in STUCOM, Barcelona, 2026
+		• 2 years teaching private lessons of music composition, electric guitar, harmony, musical technology, analysis, counterpoint and musical language, as well as preparing the access to master degrees in composition, 2024-present.
+		• Teacher of Ciclo Superior DAW DAM in STUCOM, Barcelona, 2026
 		`
 
 	},
@@ -12,8 +12,10 @@ export const workExperience = [
 	{
 		title: "SOUND ARTIST",
 		period: "2025-present",
-		description: ` I was part of The Listening Academy (The Listening Biennial and Brandon LaBelle), Vienna, june 2026
-		I collaborated with:
+		description: ` I was part of:
+		• The Listening Academy (The Listening Biennial and Brandon LaBelle), Vienna, june 2026
+		• The "Third Listening" critical listening book club as part of the Listening Biennial, Hangar, Barcelona, september 2025 
+		I have collaborated with:
 		• Violeta Mayoral, un solo dos solos, galeria etHall (Barcelona), feb 2026
 		• Astamera, error torna-ho a intentar, Centre de arts Lo Pati (Amposta), april 2026
 		• Orenetes, BOTCAMPLab 2026, Tivissa, july 2026
