@@ -4,6 +4,7 @@ import Hero from '../components/Hero.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Timeline from '../components/Timeline.astro';
 import { workExperience } from '../constants';
+import { educationExperience } from '../constants';
 ---
 
 <BaseLayout title="About | Manu Babiloni" description="About Manu Babiloni">
@@ -43,13 +44,7 @@ When collaborating, I place special emphasis on horizontal structures, listening
 						
 						
 					</p>
-					<p>
-					Some of my most recent projects include:
-					</p>
-					<ul>
-						<li><strong>- Sendero de escuchas</strong>: A guided experience of listening in the forest, where participants propose different ways of listening, engage in various exercises, and share a collective lunch to reflect on the sensations and thoughts that arose from each activity.</li>
-						<li><strong>- Third Space</strong>: A project that creates a public space for open debate, discussion, and the sharing of ideas about ecology and society. Anyone can join to express concerns and collectively explore possible responses and actions.</li>
-					</ul>
+					
 				</div>
 			</section>
 			
@@ -64,6 +59,18 @@ When collaborating, I place special emphasis on horizontal structures, listening
 				<!-- Added Timeline component with work experience data -->
 				<div class="experience-content">
 					<Timeline items={workExperience}/>
+				</div>
+			</section>
+
+			<section class="section with-background bg-variant">
+				
+				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>Education</h3>
+				</header>
+				
+				<!-- Added Timeline component with work experience data -->
+				<div class="experience-content">
+					<Timeline items={educationExperience}/>
 				</div>
 			</section>
 		</main>
@@ -114,18 +121,38 @@ When collaborating, I place special emphasis on horizontal structures, listening
 	}
 
 	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+    .about {
+        display: grid;
+        grid-template-columns: 1fr 60% 1fr;
+    }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+    .about > :global(:first-child) {
+        grid-column-start: 2;
+    }
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+    /* Only the plain “Background” section uses contents */
+    section:not(.with-background) {
+        display: contents;
+        font-size: var(--text-lg);
+    }
+
+    /* Experience & Education sections use subgrid to keep the background
+       while aligning their children to the parent grid columns */
+    section.with-background {
+        display: grid;
+        grid-template-columns: subgrid;   /* inherits the 3-column layout */
+        grid-column: 1 / -1;              /* spans the full row */
+        font-size: var(--text-lg);
+        /* background‑variant class still applies because the element is a box */
+    }
+
+    /* Place header in the left column, timeline in the right columns */
+    .section-header {
+        grid-column: 1;
+    }
+
+    .experience-content {
+        grid-column: 2 / 4;
+    }
+}
 </style>

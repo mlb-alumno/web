@@ -1,11 +1,77 @@
 export const workExperience = [
 	{
-		title: "Developer of a real time collaborative composition Web App: InScoreAI",
-		company: "Universitat Pompeu Fabra, Barcelona",
-		period: "2025",
-		description: "As my master thesis I developed 'InScoreAI' so composers can share a score in real time (As a Google Docs but for music notation)",
-		technologies: ["Javascript", "React", "NextJS", "Anticipatory Transformer models", "AI", "LLMs"]
+		title: "EDUCATOR",
+		period: "2025-present",
+		description: `• Workshop facilitator focused on listening and attention, 2025-present.
+		• 2 years teaching private lessons of music composition, electric guitar, harmony, musical technology, analysis, counterpoint and musical language, 2025-present.
+		• Teacher of Ciclo Superior, DAW DAM in STUCOM, Barcelona, 2026
+		`
+
 	},
+	
+	{
+		title: "SOUND ARTIST",
+		period: "2025-present",
+		description: ` I was part of The Listening Academy (The Listening Biennial and Brandon LaBelle), Vienna, june 2026
+		I collaborated with:
+		• Violeta Mayoral, un solo dos solos, galeria etHall (Barcelona), feb 2026
+		• Astamera, error torna-ho a intentar, Centre de arts Lo Pati (Amposta), april 2026
+		• Orenetes, BOTCAMPLab 2026, Tivissa, july 2026
+		I am part of EGO: an open collective of free improvisation.
+		among others
+		`,		
+	},
+
+	{
+		title: "LIVE MUSICIAN",
+		period: "2023-present",
+		description: `I have played live in
+		• Viena: Sargfabrik
+		• Barcelona: Sala Oasys, Llibreria Byron, Espai Niu (Barcelona)
+		• Madrid: Sala Verlanga, sala BarCO, Auditorio Centro Superior Música Creativa
+		among others`,
+		technologies: ["Guitar", "Piano", "Electroacoustics", "Percussion", "Electronics"]
+		
+	},
+
+		{
+		title: "MUSIC COMPOSER",
+		period: "2020-present",
+		description: `• Dhyana - a work for orchestra recorded by the Bratislava Symphony Orchestra, June 2024.
+• Sound playground - a collaborative sound work and thesis on collaborative music creation systems, 2024.
+• Rebis, work for ensemble of 9 instrumentalists. Premiere at Sala Berlanga (Madrid), 2023.
+• Las partes de ti, mis seres vacíos, work for ensemble of 6 instrumentalists synchronized with the Goya-winning short film "Las partes de mí que te aman son seres vacíos" by Mercedes Gaspar. Premiere at Sala Berlanga (Madrid), 2023.
+• Tarot sonoro, electroacoustic performance. Premiere at the CSMC auditorium (Madrid), 2023.
+• Trencadís d'ocells, acousmatic work, Premiere at the CSMC auditorium (Madrid), 2023.
+• Sobre las llamas, un lema silencioso, work for string quartet and narrator. Premiere at the CSMC auditorium (Madrid), 2022.
+• Cinco Besos de Acuarela, work for piano, saxophone and double bass. Premiere at the CSMC auditorium (Madrid), 2021.
+		
+		`,
+		technologies: ["Sibelius"]
+	},
+	{
+		title: "RESEARCHER",
+		period: "2024-present",
+		description: `• InScore: a web app I developed as my master thesis in Sound and Music Technology (UPF) to share a music score in real time (As a Google Docs but for music notation), 2025
+		• Sound playground: As part of my bachelor thesis that studied collaborative sound practices I conducted interviews with 5 sound artists, including Llorenç Barber, 2024
+		`
+		,
+		technologies: ["Latex","Python","Javascript", "React", "NextJS"]
+	},
+	
+
+	{
+		title: "INTERNSHIPS",
+		description: `• Internship as a music conductor, tutorized by the conductor Miguel Romea Chicote, Oct 2023 - Dec 2023
+		• Internship as a music composer for the short film 'Familia de tres' for Instituto del Cine Madrid, Sept 2022 - Jun 2023`,
+		technologies: ["Music Conducting","Logic Pro X","Sibelius"]
+	},
+	
+	
+];
+
+export const educationExperience = [
+
 	{
 		title: " 📚 Master Degree in Sound and Music Computing",
 		company: "Universitat Pompeu Fabra, Barcelona",
@@ -13,48 +79,20 @@ export const workExperience = [
 		description: "An interdisciplinary master where engineers and musicians work together",
 		technologies: ["Generative music AI", "Transformer models", "Interfaces", "Symbolic encodings of music", "Music Information Retrieval", "Signal Processing","Music Cognition"]
 	},
-	{
-		title: "Composer of an orchestral work: Dhyana",
-		company: "Centro Superior Música Creativa, Madrid",
-		period: "2024",
-		description: "Orchestral work recorded by the Bratislava Symphony Orchestra",
-		technologies: ["Sibelius"]
-	},
-	{
-		title: "Music Conductor",
-		company: "Centro Superior Música Creativa, Madrid",
-		period: "Oct 2023 - Dec 2023",
-		description: "Internship as a music conductor, tutorized by the conductor Miguel Romea Chicote",
-		technologies: ["Music Conducting"]
-	},
-	{
-		title: "Main music composer for a short film",
-		company: "Instituto del cine de Madrid",
-		period: "Sept 2022, Jun 2023",
-		description: "Internship as a music composer for the short film 'Familia de tres' for Instituto del Cine Madrid",
-		technologies: ["Logic Pro"]
-	},
+
+
 	{
 		title: "📚 Bachelor's Degree in Music Composition",
 		company: "Centro Superior Música Creativa, Madrid",
 		period: "2020 - 2024",
-		description: `These are some of the works i composed during the degree:
- 
-- Rebis: work with an ensemble of 9 instrumentalists.
-- The parts of me...: Work with an ensemble of 6 synchronized to a video art piece
-- Above the flames, a silent motto: work for string quartet.
-- Sound playground: As part of my bachelor thesis that studied collaborative systems I developed a collaborative creation work with horizontal dynamics.
-- Keter: Immersive audio work for 5.1 system with synchronized visuals.
-
-Some of the skills developed during the degree have been:
-
-- Composition of electroacoustic music and sound art
-- Composition for orchestra, ensembles and soloists 
-- Orchestra and ensemble conducting
-- Music production (including the mixing and mastering process)
-- Arrangements and orchestration of existing works 
-- Knowledge of analysis, harmony, counterpoint, extended techniques and musical computing.
-- Musical performing: Piano`,
+		description: `Some of the skills developed during the degree have been:
+• Composition of electroacoustic music and sound art
+• Composition for orchestra, ensembles and soloists 
+• Orchestra and ensemble conducting
+• Music production (including the mixing and mastering process)
+• Arrangements and orchestration of existing works 
+• Knowledge of analysis, harmony, counterpoint, extended techniques and musical computing.
+• Musical performing: Piano`,
 		technologies: ["Pro Tools", "Logic Pro", "Sibelius", "Conducting","Music Composition"]
 	},
 	{
@@ -81,7 +119,7 @@ Data Science Productization, Storytelling and data products.`
 		title: "📚 Bachelor's degree, Computer Science",
 		company: "Universidad Politécnica de Madrid",
 		period: "2019 - 2021",
-		description: "Provided technical audio support for live events and studio recordings. Developed custom audio processing tools and workflows.",
+		description: "Calculus, algebra, java and python programming background",
 		technologies: ["Python", "Java"]
 	}
-];
+]
