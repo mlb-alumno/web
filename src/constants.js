@@ -13,12 +13,12 @@ export const workExperience = [
 		title: "SOUND ARTIST",
 		period: "2023-present",
 		description: ` I was part of:
-		• The Listening Academy (The Listening Biennial and Brandon LaBelle), Vienna, june 2026
-		• The "Third Listening" critical listening book club as part of the Listening Biennial, Hangar, Barcelona, september 2025 
+		• The <a href="https://listeningbiennial.net/articles/listening-academy-vienna" target="_blank" rel="noopener noreferrer">Listening Academy</a> (The Listening Biennial and Brandon LaBelle), Vienna, june 2026
+		• The <a href="https://hangar.org/en/agenda-hangar/club-de-lectura-sobre-third-listening-a-cargo-de-hmmvapcmrepm-critical-listening-grou/" target="_blank" rel="noopener noreferrer">"Third Listening"</a> critical listening book club as part of the Listening Biennial, Hangar, Barcelona, september 2025 
 		I have collaborated with:
-		• Violeta Mayoral, un solo dos solos, galeria etHall (Barcelona), feb 2026
-		• Astamera, error torna-ho a intentar, Centre de arts Lo Pati (Amposta), april 2026
-		• Orenetes, BOTCAMPLab 2026, Tivissa, july 2026
+		• Violeta Mayoral, <a href="https://www.ethall.net/violeta-mayoral-un-solo-dos-solos.html" target="_blank" rel="noopener noreferrer">un solo dos solos</a>, galeria etHall (Barcelona), feb 2026
+		• Astamera, <a href="https://www.lopati.cat/activitats/exposicions/30-03-2026/s-c-una-exposicio-conversacional" target="_blank" rel="noopener noreferrer">error torna-ho a intentar</a>, as part of the exhibition S/C: una exposició conversacional, Centre de arts Lo Pati (Amposta), april 2026
+		• Orenetes, BOTCAMPLab 2026, as part of festival Eufònic, Tivissa, july 2026
 		I am part of EGO: an open collective of free improvisation
 		among others.
 		`,		
