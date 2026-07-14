@@ -2,8 +2,8 @@ export const workExperience = [
 	{
 		title: "EDUCATOR",
 		period: "2025-present",
-		description: `• Workshop facilitator focused on listening and attention, 2025-present.
-		• 2 years of teaching private lessons in music composition, electric guitar, harmony, musical technology, analysis, counterpoint and musical language, as well as preparing students for master's degree access exams, 2024-present.
+		description: `• Workshop facilitator focused on listening and attention, 2025-present
+		• 2 years of teaching private lessons in music composition, electric guitar, harmony, musical technology, analysis, counterpoint and musical language, as well as preparing students for master's degree access exams, 2024-present
 		• Teacher of Ciclo Superior DAW DAM in STUCOM, Barcelona, 2026
 		`
 
@@ -11,7 +11,7 @@ export const workExperience = [
 	
 	{
 		title: "SOUND ARTIST",
-		period: "2025-present",
+		period: "2023-present",
 		description: ` I was part of:
 		• The Listening Academy (The Listening Biennial and Brandon LaBelle), Vienna, june 2026
 		• The "Third Listening" critical listening book club as part of the Listening Biennial, Hangar, Barcelona, september 2025 
@@ -19,8 +19,8 @@ export const workExperience = [
 		• Violeta Mayoral, un solo dos solos, galeria etHall (Barcelona), feb 2026
 		• Astamera, error torna-ho a intentar, Centre de arts Lo Pati (Amposta), april 2026
 		• Orenetes, BOTCAMPLab 2026, Tivissa, july 2026
-		I am part of EGO: an open collective of free improvisation.
-		among others
+		I am part of EGO: an open collective of free improvisation
+		among others.
 		`,		
 	},
 
@@ -39,14 +39,14 @@ export const workExperience = [
 		{
 		title: "MUSIC COMPOSER",
 		period: "2020-present",
-		description: `• Dhyana - a work for orchestra recorded by the Bratislava Symphony Orchestra, June 2024.
-• Sound playground - a collaborative sound work and thesis on collaborative music creation systems, 2024.
-• Rebis, work for ensemble of 9 instrumentalists. Premiere at Sala Berlanga (Madrid), 2023.
+		description: `• Dhyana - a work for orchestra recorded by the Bratislava Symphony Orchestra, June 2024
+• Sound playground - a collaborative sound work and thesis on collaborative music creation systems, 2024
+• Rebis, work for ensemble of 9 instrumentalists. Premiere at Sala Berlanga (Madrid), 2023
 • Las partes de ti, mis seres vacíos, work for ensemble of 6 instrumentalists synchronized with the Goya-winning short film "Las partes de mí que te aman son seres vacíos" by Mercedes Gaspar. Premiere at Sala Berlanga (Madrid), 2023.
-• Tarot sonoro, electroacoustic performance. Premiere at the CSMC auditorium (Madrid), 2023.
-• Trencadís d'ocells, acousmatic work, Premiere at the CSMC auditorium (Madrid), 2023.
-• Sobre las llamas, un lema silencioso, work for string quartet and narrator. Premiere at the CSMC auditorium (Madrid), 2022.
-• Cinco Besos de Acuarela, work for piano, saxophone and double bass. Premiere at the CSMC auditorium (Madrid), 2021.
+• Tarot sonoro, electroacoustic performance. Premiere at the CSMC auditorium (Madrid), 2023
+• Trencadís d'ocells, acousmatic work, Premiere at the CSMC auditorium (Madrid), 2023
+• Sobre las llamas, un lema silencioso, work for string quartet and narrator. Premiere at the CSMC auditorium (Madrid), 2022
+• Cinco Besos de Acuarela, work for piano, saxophone and double bass. Premiere at the CSMC auditorium (Madrid), 2021
 		
 		`,
 		technologies: ["Sibelius"]
