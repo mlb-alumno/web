@@ -4,7 +4,12 @@ export const workExperience = [
 		period: "2025-present",
 		description: `• Workshop facilitator focused on listening and attention, 2025-present
 		• 2 years of teaching private lessons in music composition, electric guitar, harmony, musical technology, analysis, counterpoint and musical language, as well as preparing students for master's degree access exams, 2024-present
-		• Teacher of Ciclo Superior DAW DAM in STUCOM, Barcelona, 2026
+		• Creator of RESSONART (<a href="https://ressonart.com" target="_blank" rel="noopener noreferrer">ressonart.com</a>), a workshop platform focused on listening and attention, sept, 2026.
+		• Teacher of extracurricular creativity classes with Startkidsup, Barcelona, 2026
+		• Teacher of Ciclo Superior DAW (Web Development) DAM (Application Development) in STUCOM, Barcelona, 2026
+		Workshops:
+		• Instrument creation workshop "Creació de instruments" with SuperEgo for the festival <a href="https://www.lesnitsdetyrika.com/" target="_blank" rel="noopener noreferrer">Les nits de Tyrika</a>, Tarragona, sept 2026.
+		• Listening workshop "Recuperar la atención a través de la escucha", Espai Ku, Barcelona, oct 2026.
 		`
 
 	},
@@ -16,6 +21,7 @@ export const workExperience = [
 		• The <a href="https://listeningbiennial.net/articles/listening-academy-vienna" target="_blank" rel="noopener noreferrer">Listening Academy</a> (The Listening Biennial and Brandon LaBelle), Brunnenpassage, Vienna, june 2026
 		• The <a href="https://hangar.org/en/agenda-hangar/club-de-lectura-sobre-third-listening-a-cargo-de-hmmvapcmrepm-critical-listening-grou/" target="_blank" rel="noopener noreferrer">"Third Listening"</a> critical listening book club as part of the Listening Biennial, Hangar, Barcelona, september 2025 
 		I have collaborated with:
+		• SuperEgo, as part of the festival <a href="https://www.lesnitsdetyrika.com/" target="_blank" rel="noopener noreferrer">Les nits de Tyrika</a>, Tarragona, sept 2026.
 		• Violeta Mayoral, <a href="https://www.ethall.net/violeta-mayoral-un-solo-dos-solos.html" target="_blank" rel="noopener noreferrer">un solo dos solos</a>, galeria etHall (Barcelona), feb 2026
 		• Astamera, <a href="https://www.lopati.cat/activitats/exposicions/30-03-2026/s-c-una-exposicio-conversacional" target="_blank" rel="noopener noreferrer">error torna-ho a intentar</a>, as part of the exhibition S/C: una exposició conversacional, Centre de arts Lo Pati (Amposta), april 2026
 		• Orenetes, BOTCAMPLab 2026, as part of festival Eufònic, Tivissa, july 2026
@@ -29,10 +35,11 @@ export const workExperience = [
 		period: "2023-present",
 		description: `I have played live in
 		• Viena: Sargfabrik
-		• Barcelona: Sala Oasys, Llibreria Byron, Espai Niu (Barcelona)
+		• Barcelona: Sala Oasys, Llibreria Byron, Espai Niu (Barcelona), Cantina LAB Can Batlló, Can Umbral
 		• Madrid: Sala Verlanga, sala BarCO, Auditorio Centro Superior Música Creativa
-		among others`,
-		technologies: ["Guitar", "Piano", "Electroacoustics", "Percussion", "Electronics"]
+		• Tarragona: Festival Les nits de Tyrika`,
+		
+		technologies: ["Guitar", "Piano","Tenor Saxophone", "Electroacoustics", "Percussion", "Electronics"]
 		
 	},
 
@@ -73,6 +80,14 @@ export const workExperience = [
 ];
 
 export const educationExperience = [
+
+
+	{
+		title: " 📚 Máster Universitario en Formación del Profesorado de Educación Secundaria Obligatoria, Bachillerato, Formación Profesional y Enseñanza de Idiomas",
+		company: "VIU",
+		period: "2026 - present",
+		description: "Educator master (used to be called CAP) to teach ESO, Bachillerato and FP",
+	},
 
 	{
 		title: " 📚 Master Degree in Sound and Music Computing",
@@ -123,5 +138,11 @@ Data Science Productization, Storytelling and data products.`
 		period: "2019 - 2021",
 		description: "Calculus, algebra, java and python programming background",
 		technologies: ["Python", "Java"]
+	},
+	{
+		title: "Languages:",
+		description: "Spanish: native, English (C1 certificate), Catalan (C1 level)",
 	}
+
+	
 ]
