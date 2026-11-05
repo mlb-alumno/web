@@ -12,4 +12,5 @@ tags:
 
 
 
-Sound art installation with the artist Astamera for [Sense Comisariat exhibition](https://www.lopati.cat/programes/exposicions/30-03-2026/s-c-una-exposicio-conversacional) in Lo pati Museum, Amposta, april, 2026
+Sound art installation with the artist Astamera for [Sense Comisariat exhibition](https://www.lopati.cat/programes/exposicions/30-03-2026/s-c-una-exposicio-conversacional) in Lo pati Museum, Amposta, april, 2026.
+The piece reflects on how technology distorts memory related to sound. 

@@ -1,6 +1,6 @@
 ---
 title: "Sendero de escuchas - Listening Events"
-publishDate: 2025-9-16 00:00:00
+publishDate: 2025-5-16 00:00:00
 img: /assets/sendero/sendero.jpg
 img_alt: Sendero
 description: |
@@ -19,9 +19,7 @@ ESP:
 
 ### Reflexiones extraidas del primer Sendero de escuchas
 
-Tenía suerte, un día completamente libre. Me preparé unos ejercicios sobre la escucha, me hice la comida y me fui a la montaña.
-
-Los ejercicios: 
+Prácticas: 
 
 1 Escuchar el diálogo entre los sonidos, la relación entre ellos.
 
@@ -31,7 +29,7 @@ Los ejercicios:
 
 3 elegir dos focos -> andar -> entre ellos 
 
-4 cerrar los ojos - hasta que - escuches un sonido que nunca has escuchado
+4 cerrar los ojos - hasta que - escuches un sonido - que nunca has escuchado
 
 5.0 comer
 
@@ -39,13 +37,13 @@ Los ejercicios:
 
 5.2 acompasar la respiracion al movimiento de algo
 
-5.3 crear silencio en un sitio ruidoso
+5.3 crear silencio en un lugar ruidoso
 
 5.4 facilitar el silencio de algo
 
 5.5 facilitar el sonido de algo
 
-5.6 meditar - hasta que - el “yo” suene menos
+5.6 respirar - hasta que - el “yo” suene menos
 
     7 sonar - hasta que 
 
@@ -62,28 +60,26 @@ Los ejercicios:
 
 7.4 recoger basura
 
-7.5 parar - parar mas - parar mas
+7.5 parar - parar más - parar más
 
 8 escuchar la fuente de un sonido - escuchar el medio transformado por el sonido - escuchar la impresión que el sonido deja en mí - escuchar a quien escucha.
 
 9 escuchar lo lejano - hasta - escuchar algo que no está ahí
 
-10 disfrutar.
+10 disfrutar 
 
 
-Lo aprendido: es mas interesante que la situacion, los propios sonidos del momento, te propongan un ejercicio (dos pajaros cantando, puede sugerir escuchar la relacion entre los cantos) en vez de imponer un ejercicio.
-
-Cosas que me enseñs el bosque sobre la escucha:
+Los sonidos del momento ya proponen una práctica. Dos pajaros cantando sugieren escuchar la relacion entre los cantos, esto es, a veces, más interesante que imponer un ejercicio.
 
 El sonido es fluido, fluye a través de todos los seres, es un intercambio. Todos los sonidos estás conectados si se escuchan desde el fondo, son olas en un océano, emergen y cesan.
 
 La vista es cómplice del oído, se apoyan de maneras que no entendemos. 
 
-Nada como escuchar los ritmos que tiene uno para llegar a los ritmos que, verdaderamente, tiene uno.
+Escuchar los ritmos que llevamos para escuchar los ritmos que nos atraviesan.
 
->  No eres tú el que decide qué hacer con la escucha/sonido, es la escucha/sonido el que decide qué hace contigo. No puedes imponer un ejercicio al sonido, este se desvanece, actúa como le place, es más interesante que el sonido te plantee algo, que te plantee la pregunta a ti en vez de tu a él.
+>  No eres tú el que decide qué hacer con la escucha/sonido, es la escucha/sonido el que decide qué hace contigo. No puedes imponer una práctica al sonido, este se desvanece, actúa como le place, es más interesante que el sonido te plantee algo, que te plantee la pregunta a ti, en vez de tu a él. 
 
-Muchos problemas se dan por una desconexión con un entorno natural. Al volver al ruido de la ciudad se nota. Nos hemos olvidado de los ritmos naturales. Saber parar, saber escuchar. La naturaleza no exige, como dice mi amigo Aki, la naturaleza no te obliga. 
+La naturaleza no exige, como dice mi amigo Aki, la naturaleza no te obliga. 
 
 
 

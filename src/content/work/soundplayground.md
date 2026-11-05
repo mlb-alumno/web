@@ -16,7 +16,7 @@ tags:
 
 ESP:
 
-Esta obra nace de mi tesis de grado de composición musical **"Sistemas de creación sonora: una propuesta dentro del arte sonoro colectivo"**. Esta obra es la síntesis de las conclusiones extraidas de la tesis y su creación fue llevada a cabo en grupo y de manera horizontal. Un patch de MAXMSP permite a personas que cogen el rol de técnico mover las voces por un sistema cuadrafónico a través de gestos en una tablet.
+Esta obra nace de mi tesis de grado de composición musical **"Sistemas de creación sonora: una propuesta dentro del arte sonoro colectivo"**. Esta obra sintetiza las conclusiones de la tesis combinando composición colaborativa, improvisación libre y participación (Un patch de MAXMSP permite al público mover las voces por un sistema cuadrafónico a través de gestos en una tableta).
 
 ---
 
