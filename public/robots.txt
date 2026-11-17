@@ -1,3 +1,22 @@
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
+User-agent: Amazonbot
+User-agent: CCBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Applebot
+User-agent: Amzn-SearchBot
+Allow: /
+
 User-agent: *
 Allow: /
 
